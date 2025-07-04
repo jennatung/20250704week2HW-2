@@ -273,9 +273,9 @@ body{
 .product-img{
     display: block;
     max-width: 50%;
-    height: auto;
     padding-right: 8px;
     padding-bottom: 8px;
+    height: auto;
 }
 
 .nav{
