@@ -28,6 +28,10 @@ body{
     padding: 24px 0;
 }
 
+.pt-pb-64{
+    padding: 64px 0;
+}
+
 .pr-8{
     padding-right: 8px;
 }
@@ -253,13 +257,48 @@ body{
     letter-spacing: 0.05em;
 }
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;;
+}
+
 .col-7{
-    width: 59.4%;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12*7)
 }
 
 .col-5{
-    width: 40.6% ;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12*5)
 }
+
+.col-3{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100%/12*3)
+}
+
+.img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.product-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -4px;
+}
+
+
+.product-col{
+    padding: 0 4px;
+    width: calc(100%/2);
+}
+
 
 .d-flex{
     display: flex;
@@ -270,11 +309,9 @@ body{
     flex-direction: column;
 }
 
-.product-img{
+.product-col img{
     display: block;
-    max-width: 50%;
-    padding-right: 8px;
-    padding-bottom: 8px;
+    width: 100%;
     height: auto;
 }
 
@@ -373,16 +410,6 @@ body{
     color: #212529;
     border: 1px solid #212529;
 }
-
-.card{
-    width: 25%;
-}
-
-.card img{
-    display: block;
-    width: 100%;
-}
-
 
 .ad{
     background-color: #E8FEC5;
